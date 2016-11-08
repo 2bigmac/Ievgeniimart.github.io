@@ -1,0 +1,133 @@
+// --------------------------------------------------
+// Variables Global
+// --------------------------------------------------
+// Colors
+// -------------------------
+
+// Greens
+$shadeGreen: 			#296e44;
+$green: 				#33cc66;
+$tintGreen: 			#75ba90;
+$pastelGreen: 		    #d8ebdf;
+
+// Blues
+$blue:                  #1373B4;
+$lightBlue:             #42C0FB;
+$darkBlue:              #314D5D;
+$midnight-blue:         #036;
+$amazing-blue:          #232f3e;
+$skyBlue:               #b3c6ff;
+$sky:                   #EDF9FE;
+$skyline:               #BCE3F3;
+$cloud:                 #ccccff;
+$deepSea:               #000c33;
+$ocean:                 #95e1d3;
+$sea:                   #00b3b3;
+$water:                 #70dbdb;
+
+// Grays
+$black:					#000;
+$mineShaft:				#333;
+$shark:					#1d1f20;
+$darkGray:				#383838;
+$shadeGray: 			#191511;
+$asphalt:               #353535;
+$tintGray: 				#65615d;
+$pastelGray: 			#d3d2d1;
+$corduroy:				#5b5c5c;
+$lightGray:             #e3e3e3;
+$tintSilver:            #999999;
+$gray:					#848484;
+$silverChalice:		    #ababab;
+$alto:					#d6d6d6;
+$mercury:				#e6e6e6;
+$seashell:				#f1f0f0;
+$concrete:				#f3f3f3;
+$concreteLight:		    #f3f5f8;
+$blackHaze:				#fafbfb;
+$silver:				#c8c8c8;
+$white:					#fff;
+$alabaster:				#f9f9f9;
+$gallery:				#ececec;
+$manatee:				#929aa6;
+$iron:					#dadbdf; // brand background gray color
+$darkCloud:				#504b46;
+$pampas:				#c2c0ba; // shade
+$lightPampas:			#f6f4f0; // tint
+$lightCloud:			#f8f7f4; // pastel
+$pale-sky:              #6b717f;
+
+// Yellows
+$shadeYellow: 		    #a46412;
+$yellow: 				#ffcc99;
+$sun:                   #ffc34d;
+$gold:                  #f0c14b;
+$tintYellow: 			#f0b05e;
+$pastelYellow: 		    #fbe8d1;
+$cream:                 #FFFFCC;
+
+// Reds
+$red:                   #ff0000;
+$lightRed:              #ff9999;
+$bloodyRed:             #cc0000;
+$burgundy:              #990000;
+
+// Brand Colors
+$prime: 				$amazing-blue;
+$second:				$shadeGray;
+$third:					$sea;
+
+// Link Colors
+$colorLink: 			$prime;
+
+// Content Colors
+$colorText: 			$darkGray;
+
+// Font Families
+// -------------------------
+
+// Font 1,2,3
+$font-familyPrime: "Open Sans", serif;
+$font-familySecond: "Marriweather", serif;
+$font-familyThird:  "Helvetica, Arial," sans-serif;
+
+
+// Font Sizes
+// -------------------------
+$font-size1: 4.8rem;
+$font-size2: 3.6rem;
+$font-size3: 2.4rem;
+$font-size4: 2.0rem;
+$font-size5: 1.8rem;
+$font-size6: 1.3rem;
+$font-size7: 1.2rem;
+$font-sizeP: 1.8rem;
+
+
+//Font-weight
+//--------------------------
+$font-normal: normal;
+$font-bold: bold;
+$font-semi: 500;
+
+
+// Line heights
+// -------------------------
+
+// Borders
+// -------------------------
+$radius: .3rem; // static
+$btn-radius: 3rem;
+$border-bottom: 1px solid $prime;
+
+// Structure updated
+// --------------------------------------------------
+$mainContainer: 140rem;
+
+// Indents updated
+// --------------------------------------------------
+$containerHorIndent: 1rem;
+$containerVerIndent: 0rem;
+
+// Footer indent
+// --------------------------------------------------

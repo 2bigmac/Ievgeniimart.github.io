@@ -1,0 +1,104 @@
+@import "variable";
+// --------------------------------------------------
+// TM Typography
+// --------------------------------------------------
+// Body reset
+// --------------------------------------------------
+
+html {
+  font-size: 10px; // static
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  color: $colorText;
+  font-family: $font-familyPrime;
+  font-size: $font-size5;
+  line-height: 1.4;
+}
+
+// Links
+// -------------------------
+
+a,
+.link {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+
+  }
+  transition: all .1s linear;
+}
+
+// Images
+// -------------------------
+
+img, svg{
+  max-width: 100%;
+  height: auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+// Typography
+// --------------------------------------------------
+
+// Body text
+// -------------------------
+
+p {
+  font-size: 1.8rem;
+  color: $colorText;
+}
+ol,ul,li{
+  list-style:none;
+  margin:0;padding:0;
+  text-decoration: none;
+}
+// Headings
+// -------------------------
+
+.h1,
+.h2,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+  color: $colorText;
+}
+
+.h1 {
+  font-size: 4.8rem;
+}
+
+.h2 {
+  font-size: 3.6rem;
+}
+.h3 {
+  font-size: 2.4rem;
+}
+.h4 {
+  font-size: 2.2rem;
+}
+.h5 {
+  font-size: 1.4rem;
+}
+.h6 {
+  font-size: 1.4rem;
+}
+
+.quote {
+  font-size: 2.2rem;
+  color: $tintGray;
+}
+
+.small-text {
+  font-size: 1.6rem;
+}

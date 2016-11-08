@@ -1,0 +1,908 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moon Wave</title>
+    <link rel="stylesheet" href="scss/Pages/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/Pages/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/Pages/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="scss/Pages/jquery-ui.theme.css"/>
+    <link rel="stylesheet" type="text/css" href="scss/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="scss/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="scss/Pages/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="scss/Pages/animate.css"/>
+    <link rel="stylesheet" href="css/Pages/home.css">
+    <script src="scripts/modernizr.js"></script>
+
+</head>
+
+<body>
+    <section class="page-settings">
+        <div class="container">
+            <div class="page-top__desc">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="page-top__info">
+                            <ul class="page-top__info--items">
+                                <li><a href="delivery.html"> <span class="glyphicon glyphicon-send" aria-hidden="true"></span> Delivery info </a></li>
+                                <li><a href="#"> <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Terms & Conditions</a></li>
+                                <li><a href="#"> <span class="fa fa-refresh fa-lg" aria-hidden="true"></span>Returns</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-offset-4 col-md-4">
+                        <div class="page-top__account-desc">
+                            <ul>
+                                <li><a href="contact.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Contacts</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>Help</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>Register</a>
+                                    <!-- modal -->
+                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                        ×</button>
+                                                    <h4 class="modal-title" id="myModalLabel">
+                                                        Login/Registration <a href="http://www.jquery2dotnet.com"></a></h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-md-8" >
+                                                            <!-- Nav tabs -->
+                                                            <ul class="nav nav-tabs">
+                                                                <li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+                                                                <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                                                            </ul>
+                                                            <!-- Tab panes -->
+                                                            <div class="tab-content">
+                                                                <div class="tab-pane active" id="Login">
+                                                                    <form role="form" class="form-horizontal">
+                                                                        <div class="form-group">
+                                                                            <label for="email" class="col-sm-2 control-label">
+                                                                                Email</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                                                                Password</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-2">
+                                                                            </div>
+                                                                            <div class="col-sm-10">
+                                                                                <button type="submit" class="btn btn-primary btn-sm">
+                                                                                    Submit</button>
+                                                                                <a href="javascript:;">Forgot your password?</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="tab-pane" id="Registration">
+                                                                    <form role="form" class="form-horizontal">
+                                                                        <div class="form-group">
+                                                                            <label for="email" class="col-sm-2 control-label">
+                                                                                Name</label>
+                                                                            <div class="col-sm-10">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-3">
+                                                                                        <select class="form-control">
+                                                                                            <option>Mr.</option>
+                                                                                            <option>Ms.</option>
+                                                                                            <option>Mrs.</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <div class="col-md-9">
+                                                                                        <input type="text" class="form-control" placeholder="Name" />
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="email" class="col-sm-2 control-label">
+                                                                                Email</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input type="email" class="form-control" id="email" placeholder="Email" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="mobile" class="col-sm-2 control-label">
+                                                                                Mobile</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input type="tel" class="form-control" id="mobile" placeholder="Mobile" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="password" class="col-sm-2 control-label">
+                                                                                Password</label>
+                                                                            <div class="col-sm-10">
+                                                                                <input type="password" class="form-control" id="password" placeholder="Password" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-sm-2">
+                                                                            </div>
+                                                                            <div class="col-sm-10">
+                                                                                <button type="button" class="btn btn-success btn-sm">
+                                                                                    Save & Continue</button>
+                                                                                <button type="button" class="btn btn-danger btn-sm">
+                                                                                    Cancel</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                            <div id="OR" class="hidden-xs">
+                                                                Or</div>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                            <div class="row text-center sign-with">
+                                                                <div class="col-md-12">
+                                                                    <h3>
+                                                                        Sign in with</h3>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="btn-group btn-group-justified">
+                                                                        <a href="#" class="btn btn-primary">Facebook</a>
+                                                                        <a href="#" class="btn btn-danger">Google +</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Login <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="#">My Orders</a></li>
+                                        <li role="presentation"><a href="#">Messages <span class="badge"> 3 </span></a></li>
+                                        <li><a href="#">Wish list</a></li>
+                                        <li><a href="#">Settings</a></li>
+                                        <li><a href="#">Exit</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="container">
+            <header class="page-header">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4">
+                            <form class="navbar-form" role="search">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button><input type="text" class="form-control" placeholder="Search ...">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-offset-2 col-xs-3 col-sm-offset-1 col-sm-3 col-md-offset-1 col-md-3">
+                            <div class="page-header__logo-wrap">
+                                <a href="index.html" class="page-header__logo-link" >
+                                    <img src="img/Ubuntu-logo.png" alt=""/>
+                                    <img src="img/Ubuntu-logo2.png" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="page-header__phone-call">
+                                <i class="page-header__phone-call--numbers">
+                                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> 095-453-19-12</span>
+                                </i> <br>
+                                <i class="page-header__phone-call--numbers">
+                                    <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> 095-453-12-19</span>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="col-xs-3  col-sm-2 col-md-1">
+                            <a href="#0" class="cd-cart">
+                                <span>0</span>
+                            </a>
+                        </div>
+                    </div>
+                <div class="page-header__nav-wrap">
+                    <div class="container">
+                        <div class="row">
+                             <nav class="col-md-12 ">
+                                 <a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"> </span> Menu</a>
+                                 <ul class="menu">
+                                     <li><a href="#"><i class="icon-home"></i> <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Smartphones </a>
+                                         <ul class="sub-menu animated fadeInDown">
+                                             <li><a href="http://">Xiaomi</a></li>
+                                             <li><a href="http://">Meizu</a></li>
+                                             <li><a href="http://">Huawei</a></li>
+                                             <li><a href="http://">Blackview</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a  href="#"><i class="icon-user"></i> <span class="fa fa-tablet fa-lg" aria-hidden="true"></span> Tablets </a>
+                                             <ul class="sub-menu animated fadeInDown">
+                                                 <li><a href="http://">Xiaomi</a></li>
+                                                 <li><a href="http://">Huawei</a></li>
+                                                 <li><a href="http://">Dell</a></li>
+                                                 <li><a href="http://">Lenovo</a></li>
+                                             </ul>
+                                     </li>
+                                     <li><a  href="#"><i class="icon-camera"></i> <span class="fa fa-bicycle fa-lg" aria-hidden="true"></span> Bicycle & Gyroboards</a>
+                                         <ul class="sub-menu animated fadeInDown">
+                                             <li><a href="#">Like Bike</a></li>
+                                             <li><a href="#">Gyroboards</a>
+                                                 <ul class="sub-menu--two animated fadeInLeft">
+                                                     <li><a href="http://">UFT</a></li>
+                                                     <li><a href="http://">GTF</a></li>
+                                                     <li><a href="http://">IO</a></li>
+                                                     <li><a href="http://">Just Step</a></li>
+                                                 </ul>
+                                             </li>
+                                         </ul>
+                                     </li>
+                                     <li><a  href="#"><i class="icon-camera"></i><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Outdoor Cameras</a>
+                                         <ul class="sub-menu animated fadeInDown">
+                                             <li><a href="#">Xiaomi</a>
+                                                 <ul class="sub-menu--two animated fadeInLeft">
+                                                     <li><a href="http://">Yi</a></li>
+                                                 </ul>
+                                             </li>
+                                             <li><a href="#">Polaroid</a></li>
+                                             <li><a href="#">Liquid Image</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a  href="#"><i class="icon-envelope-alt"></i><span class="fa fa-rocket fa-lg" aria-hidden="true"></span> Quadrocopters </a>
+                                         <ul class="sub-menu animated fadeInDown">
+                                             <li><a href="#">One</a></li>
+                                             <li><a href="#">Two</a></li>
+                                         </ul>
+                                     </li>
+                                     <li><a  href="#"><i class="icon-bullhorn"></i> <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span> Accesories</a>
+                                         <ul class="sub-menu animated fadeInDown">
+                                             <li><a href="#">Cases</a>
+                                                 <ul class="sub-menu--two animated fadeInLeft">
+                                                     <li><a href="#">Sub-Menu 4</a></li>
+                                                     <li><a href="#">Sub-Menu 5</a></li>
+                                                     <li><a href="#">Sub-Menu 6</a></li>
+                                                 </ul>
+                                             </li>
+                                             <li><a href="#">Headphones</a></li>
+                                             <li><a href="#">Protection glass</a>
+                                                 <ul class="sub-menu--two animated fadeInLeft">
+                                                     <li><a href="#">Sub-Menu 4</a></li>
+                                                     <li><a href="#">Sub-Menu 5</a></li>
+                                                     <li><a href="#">Sub-Menu 6</a></li>
+                                                 </ul>
+                                             </li>
+                                             <li><a href="#">Smart-watch</a></li>
+                                             <li><a href="#">Smart-house</a></li>
+                                         </ul>
+                                     </li>
+                                 </ul>
+                             </nav>
+                         </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="container">
+            <section class="page-goods">
+                <div class="row">
+                    <div class="col-xs-11 col-sm-offset-1 col-sm-10 col-md-11">
+                          <div class="page-main-slider">
+                              <div id="slide">
+                                  <div class="slide">
+                                      <div class="slider wow animated fadeInDown">
+                                          <a href="preview.html"><img src="img/slider-1.jpg" alt="learn more" /></a>
+                                              <div class="slider-text">
+                                                  <h1 class="wow animated fadeInDown">Xiaomi Redmi Note 4</h1>
+                                                  <h3 class="wow animated zoomIn">Time to upgrade comes</h3>
+                                                  <div class="features_list wow animated zoomIn">
+                                                      <ul>
+                                                          <li>16/64 ROM</li>
+                                                          <li>4100 mAh battery</li>
+                                                          <li>Fingerprint sensor</li>
+                                                          <li>MediaTek Sensor X20</li>
+                                                      </ul>
+                                                  </div>
+                                                  <div class="main-button">
+                                                      <a href="index.html" class="my-btn my-btn-small-outline">Buy Here</a>
+                                                      <a href="index.html" class="my-btn my-btn-prime-outline">Buy Here</a>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </div>
+                                  <div class="slide">
+                                      <div class="slider ">
+                                          <a href="preview.html"><img src="img/slider-2.jpg" alt="learn more" /></a>
+                                          <div class="slider-text">
+                                              <h1 class="">Meizu Pro 6</h1>
+                                              <h3 class="">Flagship with beautiful body</h3>
+                                              <div class="features_list ">
+                                                  <ul>
+                                                      <li>10 core Helio X25</li>
+                                                      <li>5.2-inch AMOLED screen</li>
+                                                      <li>3D Press technology</li>
+                                                      <li>4GB RAM</li>
+                                                  </ul>
+                                              </div>
+                                              <div class="main-button">
+                                                  <a href="index.html" class="my-btn my-btn-small-outline">Buy Here</a>
+                                                  <a href="index.html" class="my-btn my-btn-prime-outline">Buy Here</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                   </div>
+                                  <div class="slide">
+                                      <div class="slider">
+                                          <a href="preview.html"><img src="img/slider-3.jpg" alt="learn more" /></a>
+                                          <div class="slider-text">
+                                              <h1>Xiaomi Mi 5</h1>
+                                              <h3>Flag-ship killer</h3>
+                                              <div class="features_list">
+                                                  <ul>
+                                                      <li>SnapDragon 820</li>
+                                                      <li>3Gb/4Gb RAM</li>
+                                                      <li>32/64/128GB ROM</li>
+                                                      <li>5.15 inch Full-HD display</li>
+                                                  </ul>
+                                              </div>
+                                              <div class="main-button">
+                                                  <a href="index.html" class="my-btn my-btn-small-outline">Buy Here</a>
+                                                  <a href="index.html" class="my-btn my-btn-prime-outline">Buy Here</a>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                  <div class="slide">
+                                      <div class="slider">
+                                          <a href="preview.html"><img src="img/slider-4.jpg" alt="learn more" /></a>
+                                          <div class="slider-text">
+                                              <h1>Meizu M3 Note</h1>
+                                              <h3>Too good-looking to forget</h3>
+                                              <div class="features_list">
+                                                  <ul>
+                                                      <li>Helio P-10 octa core processor</li>
+                                                      <li>mTouch 2.1</li>
+                                                      <li>16/32GB-ROM+ Micro SD</li>
+                                                      <li>Battery: 4100mAh</li>
+                                                      <li>5.5 inch Full-HD Display</li>
+                                                  </ul>
+                                              </div>
+                                              <div class="main-button">
+                                                  <a href="index.html" class="my-btn my-btn-small-outline">Buy Here</a>
+                                                  <a href="index.html" class="my-btn my-btn-prime-outline">Buy Here</a>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                  <div class="slide">
+                                      <div class="slider">
+                                          <a href="preview.html"><img src="img/slider-5.jpg" alt="learn more" /></a>
+                                          <div class="slider-text">
+                                              <h1>Xiaomi Redmi 3 Pro</h1>
+                                              <h3>Powerfull device for the best price</h3>
+                                              <div class="features_list">
+                                                  <ul>
+                                                      <li>5 inch HD Display</li>
+                                                      <li>13 Mpx camera</li>
+                                                      <li>Cualcomm Snapdragon 616</li>
+                                                      <li>3GB RAM / 32GB ROM</li>
+                                                  </ul>
+                                              </div>
+                                              <div class="main-button">
+                                                  <a href="index.html" class="my-btn my-btn-small-outline">Buy Here</a>
+                                                  <a href="index.html" class="my-btn my-btn-prime-outline">Buy Here</a>
+                                              </div>
+                                          </div>
+                                          </div>
+                                      </div>
+                                  <div class="slide">
+                                      <div class="slider">
+                                          <a href="preview.html"><img src="img/slider-6.jpg" alt="learn more" /></a>
+                                          <div class="slider-text">
+                                              <h1>Xiaomi Mi4S</h1>
+                                              <h3>Innovation in every millimeter</h3>
+                                                  <ul>
+                                                      <li>3GB RAM</li>
+                                                      <li>36GB ROM + microSD card</li>
+                                                      <li>Snapdragon 808, 1,5 GHz</li>
+                                                      <li>Fingerprint sensor</li>
+                                                      <li>5 Inch Full HD Display</li>
+                                                  </ul>
+                                              <div class="main-button">
+                                                  <a href="index.html" class="my-btn my-btn-small-outline">Buy Here</a>
+                                                  <a href="index.html" class="my-btn my-btn-prime-outline">Buy Here</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+<!--Main END-->
+     <section class="main-gallery">
+         <div class="container">
+               <div class="main-gallery__title">
+                   <div class="row">
+                       <div class="sec-title text-center wow animated fadeInDown">
+                           <h2> Bestsellers</h2>
+                           <p>Limited offers</p>
+                       </div>
+                   </div>
+               </div>
+                   <div class="row">
+                           <ul class="cd-gallery ">
+                               <li class="col-md-3 col-sm-12 col-xs-5 text-center wow animated fadeInUp">
+                                   <div class="cd-single-item ">
+                                       <ul class="cd-slider-wrapper cd-gallery-items__fancy">
+                                           <li class=" cd-slider-item"><img src="img/gyro/u3_blue.jpg" alt="Preview image">
+                                               <div class="mask">
+                                                   <div class="stars-default"><input type=hidden name="rating"/></div>
+                                               </div>
+                                               <ul class="external">
+                                                   <li><a class="fancybox" title="Quick View" data-fancybox-group="works" href="img/phone/m1.jpg"><i class="fa fa-search"></i></a></li>
+                                                   <li><a title="Add to wish list"><i class="fa fa-heart"></i></a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                       <div class="cd-customization">
+                                           <button class="add-to-cart">
+                                               <em><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></em>
+                                               <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                                   <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                                               </svg>
+                                           </button>
+                                       </div>
+                                   </div>
+                                   <div class="cd-item-info">
+                                       <i><a href="">Gyroboard</a></i>
+                                       <em>$569.99</em>
+                                   </div>
+                               </li>
+
+                               <li class="col-md-3 col-sm-6 col-xs-5 text-center  wow animated fadeInUp">
+                                   <div class="cd-single-item ">
+                                       <ul class="cd-slider-wrapper cd-gallery-items__fancy">
+                                           <li class=" cd-slider-item "><img src="img/phone/m4.png" alt="Preview image">
+                                               <div class="mask">
+                                                   <div class="stars-default"><input type=hidden name="rating"/></div>
+                                               </div>
+                                               <ul class="external">
+                                                   <li><a class="fancybox" title="Quick View" data-fancybox-group="works" href="img/phone/m1.jpg"><i class="fa fa-search"></i></a></li>
+                                                   <li><a title="Add to wish list"><i class="fa fa-heart"></i></a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                       <div class="cd-customization">
+                                           <button class="add-to-cart">
+                                               <em><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></em>
+                                               <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                                   <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                                               </svg>
+                                           </button>
+                                       </div>
+                                   </div>
+                                   <div class="cd-item-info">
+                                       <i><a href="#0">Meizu MX5 16GB</a></i>
+                                       <em>$309.99</em>
+                                   </div>
+                               </li>
+
+                               <li class="col-md-3 col-sm-6 col-xs-5 text-center  wow animated fadeInUp">
+                                   <div class="cd-single-item ">
+                                       <ul class="cd-slider-wrapper cd-gallery-items__fancy">
+                                           <li class=" cd-slider-item"><img src="img/phone/x1.png" alt="Preview image">
+                                               <div class="mask">
+                                                   <div class="stars-default"><input type=hidden name="rating"/></div>
+                                               </div>
+                                               <ul class="external">
+                                                   <li><a class="fancybox" title="Quick View" data-fancybox-group="works" href="img/phone/m1.jpg"><i class="fa fa-search"></i></a></li>
+                                                   <li><a title="Add to wish list"><i class="fa fa-heart"></i></a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                       <div class="cd-customization">
+                                           <button class="add-to-cart">
+                                               <em><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></em>
+                                               <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                                   <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                                               </svg>
+                                           </button>
+                                       </div>
+                                   </div>
+                                   <div class="cd-item-info">
+                                       <i><a href="#0">Product Name</a></i>
+                                       <em>$9.99</em>
+                                   </div>
+                               </li>
+
+
+                      <li class="col-md-3 col-sm-6 col-xs-5 text-center  wow animated fadeInUp">
+                          <div class="cd-single-item ">
+                              <ul class="cd-slider-wrapper cd-gallery-items__fancy">
+                                  <li class=" cd-slider-item"><img src="img/gyro/u3_black.jpg" alt="Preview image">
+                                      <div class="mask">
+                                          <div class="stars-default"><input type=hidden name="rating"/></div>
+                                      </div>
+                                      <ul class="external">
+                                          <li><a class="fancybox" title="Quick View" data-fancybox-group="works" href="img/phone/m1.jpg"><i class="fa fa-search"></i></a></li>
+                                          <li><a title="Add to wish list"><i class="fa fa-heart"></i></a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                              <div class="cd-customization">
+                                  <button class="add-to-cart">
+                                      <em><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></em>
+                                      <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                          <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                                      </svg>
+                                  </button>
+                              </div>
+                          </div>
+                          <div class="cd-item-info">
+                              <i><a href="">Gyroboard</a></i>
+                              <em>$569.99</em>
+                          </div>
+                      </li>
+
+                      <li class="col-md-3 col-sm-6 col-xs-5 text-center wow animated fadeInUp">
+                          <div class="cd-single-item ">
+                              <ul class="cd-slider-wrapper cd-gallery-items__fancy">
+                                  <li class="cd-slider-item"><img src="img/phone/m2.png" alt="Preview image">
+                                      <div class="mask">
+                                          <div class="stars-default"><input type=hidden name="rating"/></div>
+                                      </div>
+                                      <ul class="external">
+                                          <li><a class="fancybox" title="Quick View" data-fancybox-group="works" href="img/phone/m1.jpg"><i class="fa fa-search"></i></a></li>
+                                          <li><a title="Add to wish list"><i class="fa fa-heart"></i></a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                              <div class="cd-customization">
+                                  <button class="add-to-cart">
+                                      <em><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></em>
+                                      <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                          <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                                      </svg>
+                                  </button>
+                              </div>
+                          </div>
+                          <div class="cd-item-info">
+                              <i><a href="#0">Meizu MX5 16GB</a></i>
+                              <em>$309.99</em>
+                          </div>
+                      </li>
+
+                      <li class="col-md-3 col-sm-3 col-xs-5 text-center wow animated fadeInUp">
+                          <div class="cd-single-item ">
+                              <ul class="cd-slider-wrapper cd-gallery-items__fancy">
+                                  <li class=" cd-slider-item "><img src="img/phone/x3.png" alt="Preview image">
+                                      <div class="mask">
+                                          <div class="stars-default"><input type=hidden name ="rating"/></div>
+                                      </div>
+                                      <ul class="external">
+                                          <li><a class="fancybox" title="Quick View" data-fancybox-group="works" href="img/phone/m1.jpg"><i class="fa fa-search"></i></a></li>
+                                          <li><a title="Add to wish list"><i class="fa fa-heart"></i></a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                              <div class="cd-customization">
+                                  <button class="add-to-cart">
+                                      <em><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></em>
+                                      <svg x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+                                          <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
+                                      </svg>
+                                  </button>
+                              </div>
+                          </div>
+                          <div class="cd-item-info">
+                              <i><a href="#0">Product Name</a></i>
+                              <em>$9.99</em>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+         </div>
+   </section>
+      <!-- Service section -->
+     <section id="arrival">
+       <div class="container">
+           <div class="row">
+               <div class="sec-title text-center">
+                   <h2 class="wow animated fadeInLeft">Arrivals</h2>
+                   <p class="wow animated fadeInRight">See all arrivals guides</p>
+               </div>
+
+               <div class="col-md-3 col-sm-6 col-xs-6 text-center wow animated zoomIn">
+                   <div class="arrival-item">
+                       <div class="arrival-icon">
+                           <a href=""><img src="/img/arrivals/b.png" alt=""/></a>
+                       </div>
+                       <h3>Blackwiew</h3>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                   </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 col-xs-6 text-center wow animated zoomIn" data-wow-delay="0.3s">
+                   <div class="arrival-item">
+                       <div class="arrival-icon">
+                           <a href=""><img src="/img/arrivals/x.png" alt=""/></a>
+                       </div>
+                       <h3>Xiaomi</h3>
+                       <p>Delectus dolore eaque eligendi error esse libero minima natus officia</p>
+                   </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 col-xs-6 text-center wow animated zoomIn" data-wow-delay="0.6s">
+                   <div class="arrival-item">
+                       <div class="arrival-icon">
+                           <a href=""><img src="/img/arrivals/m.png" alt=""/></a>
+                       </div>
+                       <h3>Meizu</h3>
+                       <p>Provident recusandae repellendus sint voluptates!</p>
+                   </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 col-xs-6 text-center wow animated zoomIn" data-wow-delay="0.9s">
+                   <div class="arrival-item">
+                       <div class="arrival-icon">
+                           <a href=""><img src="/img/arrivals/h.png" alt=""/></a>
+                       </div>
+
+                       <h3>Huawei</h3>
+                       <p>Accusamus adipisci aliquid dolorem quisquam tenetur voluptatibus.</p>
+                   </div>
+               </div>
+
+           </div>
+       </div>
+   </section>
+     <!-- end Service section -->
+<!--Discount-->
+    <section class="discount discount">
+        <div class="container">
+            <div class=" wow animated fadeInDown ">
+                <div class="container wow animated fadeInDown">
+                    <div class="page-discount__slider wow animated fadeInDown">
+                        <div class="row wow animated fadeInDown">
+                            <div class= "col-xs-5 col-md-offset-2 col-md-5">
+                                <a class="page-discount__slider--descr" href=""><img src="/img/sale.png" alt="disc"/></a>
+                                <h3 class="page-discount__slider--text">Buy 5 & Get 1 for free</h3>
+                                <a href="index.html" class="my-btn my-btn-prime">Look more</a>
+                                <button class="my-btn my-btn-small ">Look more</button>
+                            </div>
+                            <figure class="col-xs-6 col-md-4 col-md-pull-1 ">
+                                <ul class="page-discount_slider--items">
+                                    <li><a href=""><img src="/img/discount/slider-1.png" alt=""/></a></li>
+                                    <li><a href=""><img src="/img/discount/slider-2.png" alt=""/></a></li>
+                                    <li><a href=""><img src="/img/discount/slider-3.png" alt=""/></a></li>
+                                    <li><a href=""><img src="/img/discount/slider-4.png" alt=""/></a></li>
+                                    <li><a href=""><img src="/img/discount/slider-5.png" alt=""/></a></li>
+                                    <li><a href=""><img src="/img/discount/slider-6.png" alt=""/></a></li>
+                                </ul>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="google-map">
+        <div id="map-canvas" class="wow animated fadeInUp"></div>
+    </section>
+<!--Footer section-->
+    <footer class="page-footer">
+        <div class="container">
+            <section class="footer-top">
+                    <div class="row">
+                        <div class="footer-top__support">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-3">
+                                    <div class="footer-support__wrap">
+                                        <div class="footer-support__wrap-icon">
+                                            <i><img src="/img/footer/email.svg" alt=""/></i>
+                                        </div>
+                                        <p>
+                                            <span>
+                                                Need help?
+                                            </span><br>
+                                            <span>
+                                                contact-moonwave@gmail.com
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <span>
+                                                Order Information :
+                                            </span><br>
+                                            <span>
+                                                order-moonwave@gmail.com
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-3">
+                                    <div class="footer-support__wrap">
+                                        <div class="footer-support__wrap-icon">
+                                            <i><img src="/img/footer/shield-1.svg" alt=""/></i>
+                                        </div>
+                                        <p>
+                                            <span>
+                                                Guaranteed Genuine
+                                            </span><br>
+                                            <span>
+                                                All products are genuine.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <span>
+                                               Customer service
+                                            </span><br>
+                                            <span>
+                                                We are here for you 24/7.
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-3">
+                                    <div class="footer-support__wrap">
+                                        <div class="footer-support__wrap-icon">
+                                            <i><img src="/img/footer/shield-2.svg" alt=""/></i>
+                                        </div>
+                                        <p>
+                                            <span>
+                                                Warranty
+                                            </span><br>
+                                            <span>
+                                                2 years warranty on all devices.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <span>
+                                               Repair center contact:
+                                            </span><br>
+                                            <span>
+                                                service-moonwave@gmail.com
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-3">
+                                    <div class="footer-support__wrap">
+                                        <div class="footer-support__wrap-icon">
+                                            <i><img src="/img/footer/airplane.svg" alt=""/></i>
+                                        </div>
+                                        <p>
+                                            <span>
+                                                Delivery time:
+                                            </span><br>
+                                            <span>
+                                                3-10 working days.
+                                            </span>
+                                        </p>
+                                        <p>
+                                            <span>
+                                               Shipping company:
+                                            </span><br>
+                                            <span>
+                                                NPA Ukraine
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-middle__link">
+                                <p>My account</p>
+                                <ul>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Shopping Cart</a></li>
+                                    <li><a href="#">My Wishlist</a></li>
+                                    <li><a href="#">My Credit Slip</a></li>
+                                    <li><a href="#">Account Information</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-middle__link">
+                                <p>Customer support</p>
+                                <ul>
+                                    <li><a href="#">7/24 Hour Support</a></li>
+                                    <li><a href="#">Refound Policy</a></li>
+                                    <li><a href="#">Shipping Guide</a></li>
+                                    <li><a href="#">International Shipping</a></li>
+                                    <li><a href="#">Career</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="footer-middle__link">
+                                <p>Information</p>
+                                <ul>
+                                    <li><a href="#">About Our Shop</a></li>
+                                    <li><a href="#">Secure Shopping</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Company Site Map</a></li>
+                                    <li><a href="#">Privecy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-xs-11 col-sm-12 col-md-12">
+                                    <p class="footer-middle__pay-icon--text">Follow Us</p>
+                                    <div class="footer-middle__social-icon">
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                        <a href="#"></a>
+                                    </div>
+                                </div>
+                                <div class=" col-xs-offset-1 col-xs-11 col-sm-12 col-md-12">
+                                    <div class="footer-middle__pay-icon">
+                                        <a href="#"><img src="img/footer/paypal-1.png" alt="" /></a>
+                                        <a href="#"><img src="img/footer/paypal-2.png" alt="" /></a>
+                                        <a href="#"><img src="img/footer/paypal-3.png" alt="" /></a>
+                                        <a href="#"><img src="img/footer/paypal-4.png" alt="" /></a>
+                                        <a href="#"><img src="img/footer/paypal-5.png" alt="" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" id="back-to-top" title="Back to top"><img src="/img/arrow_up.png" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <section class="page-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="copyright">
+                        <p>Copyright © 2016 <a href="#">Moonwave</a> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script     src="/scripts/bootstrap.js"></script>
+    <script     src="/scripts/jquery-3.1.0.min.js"></script>
+    <script     src="/scripts/jquery-ui.js"></script>
+    <script     src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script     src="scripts/wow.min.js"></script>
+    <script     src="/scss/slick/slick.js"></script>
+    <script     src="scripts/jquery.fancybox.pack.js"></script>
+    <script     src="/scripts/home.js"></script>
+    <script     src="/js/all.js"></script>
+
+</body>
+</html>
