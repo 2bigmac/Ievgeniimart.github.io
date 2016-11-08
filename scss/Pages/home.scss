@@ -8,7 +8,6 @@
   color: $colorText;
   font-family: $font-familyPrime;
   font-size: $font-size5;
-  line-height: 1.4;
 }
 .container {
   width: 100%;
@@ -76,7 +75,7 @@
         weight: $font-normal;
       }
       color: $second;
-      padding: 0 .5rem;
+      padding: .5rem;
 
       &:hover {
         color: $lightBlue;
@@ -1240,7 +1239,7 @@ Gallery grid
 @media #{$mobile} {
   .cd-gallery {
     position: relative;
-    left: 3rem;
+    left: 2rem;
     display: inline-block;
     height: auto;
     width: 80%;
