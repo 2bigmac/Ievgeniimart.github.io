@@ -441,19 +441,19 @@ div#OR {
   .page-header {
     border-bottom: none;
     padding: 0;
-    margin: 1rem 0 0 0;
+    margin: 2rem 0 0 0;
   }
 
   form.navbar-form {
-    padding: 2rem 0 0 0;
-    position: absolute;
+    padding: 1rem 0 0 2.1rem;
+    position: relative;
     display: inline-block;
-    bottom: .5rem;
-    height: 4rem;
+    height: 3rem;
 
     .form-group {
       position: relative;
       width: 13rem;
+      top: -5rem;
       .form-control {
         &:hover,
         &:focus {
@@ -1040,7 +1040,7 @@ div#OR {
 
   .page-main-slider img {
     display: inline-block;
-    max-width: 10rem;
+    max-width: 15rem;
     float: left;
     height: auto;
   }
