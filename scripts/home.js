@@ -250,7 +250,7 @@ function init() {
 
 	// Let's also add a marker while we're at it
 	var marker = new google.maps.Marker({
-		position: new google.maps.LatLng(48.827558, 9.315709),
+		position: new google.maps.LatLng(50.4546600, 30.5238000),
 		map: map,
 		icon: 'img/icons/map-marker.png',
 	});
