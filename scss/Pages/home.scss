@@ -383,6 +383,7 @@ div#OR {
     .form-group {
       position: relative;
       max-width: 5rem;
+      height: 2rem;
       .form-control {
         &:hover,
         &:focus {
@@ -445,15 +446,15 @@ div#OR {
   }
 
   form.navbar-form {
-    padding: 1rem 0 0 2.1rem;
+    padding: 1rem 0 0 2.5rem;
     position: relative;
     display: inline-block;
-    height: 3rem;
+    height: 2rem;
 
     .form-group {
       position: relative;
       width: 13rem;
-      top: -5rem;
+      top: -4.5rem;
       .form-control {
         &:hover,
         &:focus {
@@ -1029,30 +1030,30 @@ div#OR {
 
   .page-main-slider {
     padding-top: 2rem;
-    width: auto;
+    width: 100%;
     height: auto;
   }
   .page-main-slider .main-button {
     padding: 1rem 0 0 0;
     margin: 0;
-    width: 8rem;
+    width: 7rem;
   }
 
   .page-main-slider img {
     display: inline-block;
     max-width: 15rem;
     float: left;
-    height: auto;
+    height: 14rem;
   }
 
   .slider-text {
-    padding: 0 0 0 2.5rem;
+    padding: 0 0 0 1.5rem;
     margin: 0;
     float: left;
-    max-width: 14rem;
+    max-width: 11rem;
     li {
       color: $black;
-      font-size: 1.1rem;
+      font-size: 0.9rem;
       list-style: circle;
       padding: 0;
       margin: 0;
@@ -1060,7 +1061,7 @@ div#OR {
     h1 {
       color: $asphalt;
       font-size: $font-size6;
-      padding-top: 0.5rem;
+      padding-top: 0.2rem;
     }
     h3 {
       color: $gold;
@@ -1157,7 +1158,7 @@ div#OR {
   .cd-cart {
     position: absolute;
     z-index: 2;
-    top: 1.5rem;
+    top: 2rem;
     right: .5rem;
     padding: 2rem;
     height: 50px;
@@ -1171,7 +1172,7 @@ div#OR {
   .cd-cart {
     position: absolute;
     z-index: 2;
-    top: 0;
+    top: 0.3rem;
     right: 3rem;
     padding: 1rem;
     height: 4rem;
@@ -1543,7 +1544,7 @@ Product Customization
   .cd-customization .add-to-cart {
     height: 3.5rem;
     border: none;
-    left: 11rem;
+    left: 10rem;
     bottom: 3rem;
     border-radius: 3px;
     position: relative;
@@ -2024,7 +2025,7 @@ ul.external li:last-child a {
   ul.external li:first-child {
     position: relative;
     top: 5rem;
-    right: -4.5rem;
+    right: -4.8rem;
   }
 
   ul.external li a {
@@ -2697,8 +2698,8 @@ ul.external li:last-child a {
     p {
       display: block;
       font-size: 1.4rem;
-      padding: 0;
-      margin: 0;
+      padding: 0px;
+      margin: 0px;
       cursor: default;
 
     }
@@ -2712,18 +2713,18 @@ ul.external li:last-child a {
   }
   .footer-support__wrap-icon {
     background-color: $iron;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
     border-radius: 50%;
     float: left;
-    margin-right: .9rem;
+    margin-right: 10px;
     i {
       display: block;
       position: relative;
       font-style: normal;
-      height: 5rem;
-      width: 5rem;
+      height: 6rem;
+      width: 6rem;
       left: 0.5rem;
       bottom: 0.2rem;
       color: $asphalt;
@@ -2741,11 +2742,10 @@ ul.external li:last-child a {
 
     li {
       padding: 0.2rem;
-      font-size: $font-size7;
 
     }
     a {
-      font-size: $font-size7;
+      font-size: 1.3rem;
       color: $gallery;
       list-style-type: armenian;
       &:hover, &:focus {
@@ -2758,7 +2758,7 @@ ul.external li:last-child a {
     padding: 2rem 0 0 0;
     text-align: left;
     font-family: $font-familyPrime;
-    font-size: $font-size6;
+    font-size: $font-size4;
     font-weight: bold;
     line-height: 2rem;
     color: $lightBlue;
@@ -2828,10 +2828,12 @@ ul.external li:last-child a {
     text-align: center;
 
     p {
-      font-size: $font-size6;
+      font: {
+        size: 1.2rem
+      }
     }
-
   }
+
 }
 /*** Social Icons ***/
 .social-icons {
