@@ -2211,7 +2211,7 @@ ul.external li:last-child a {
 //Discount-----------------------------------------------------------
 
 .discount {
-  background: url("/img/city.jpg") no-repeat center;
+  background: url("../img/city.jpg") no-repeat center;
   background-size: cover;
 }
 .page-discount__slider {
@@ -2262,7 +2262,7 @@ ul.external li:last-child a {
 
 @media #{$tablet} {
   .discount {
-    background: url("/img/city.jpg") no-repeat center;
+    background: url("./img/city.jpg") no-repeat center;
     background-size: cover;
   }
   .page-discount__slider {

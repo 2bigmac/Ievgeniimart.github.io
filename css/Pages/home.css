@@ -1386,7 +1386,7 @@ div#OR {
   right: 10rem;
   height: 5rem;
   width: 5rem;
-  background: url(/img/cd-icon-cart.svg) no-repeat center center; }
+  background: url(../../img/cd-icon-cart.svg) no-repeat center center; }
 
 /* line 1124, D:/!Projects/eCommerce/scss/Pages/home.scss */
 .cd-cart span {
@@ -1432,7 +1432,7 @@ div#OR {
     padding: 2rem;
     height: 50px;
     width: 50px;
-    background: url(/img/cd-icon-cart.svg) no-repeat center center; } }
+    background: url(../../img/cd-icon-cart.svg) no-repeat center center; } }
 
 @media (min-width: 320px) and (max-width: 767px) {
   /* line 1172, D:/!Projects/eCommerce/scss/Pages/home.scss */
@@ -1444,7 +1444,7 @@ div#OR {
     padding: 1rem;
     height: 4rem;
     width: 4rem;
-    background: url(/img/cd-icon-cart.svg) no-repeat center center; } }
+    background: url(../../img/cd-icon-cart.svg) no-repeat center center; } }
 
 /* --------------------------------
 
@@ -2388,7 +2388,7 @@ ul.external li:last-child a {
 
 /* line 2213, D:/!Projects/eCommerce/scss/Pages/home.scss */
 .discount {
-  background: url("/img/city.jpg") no-repeat center;
+  background: url("../../img/city.jpg") no-repeat center;
   background-size: cover; }
 
 /* line 2217, D:/!Projects/eCommerce/scss/Pages/home.scss */
@@ -2438,7 +2438,7 @@ ul.external li:last-child a {
 @media (min-width: 768px) and (max-width: 1023px) {
   /* line 2264, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .discount {
-    background: url("/img/city.jpg") no-repeat center;
+    background: url("../../img/city.jpg") no-repeat center;
     background-size: cover; }
   /* line 2268, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .page-discount__slider {
@@ -2485,7 +2485,7 @@ ul.external li:last-child a {
 @media (min-width: 320px) and (max-width: 767px) {
   /* line 2320, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .discount {
-    background: url("/img/city.jpg") no-repeat center;
+    background: url("../../img/city.jpg") no-repeat center;
     background-size: cover; }
   /* line 2324, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .page-discount__slider {
@@ -2621,14 +2621,14 @@ ul.external li:last-child a {
   height: 5rem; }
   /* line 2464, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .footer-middle__social-icon a:first-child {
-    background: url("/img/social-sprite.png") no-repeat;
+    background: url("../../img/social-sprite.png") no-repeat;
     background-position: -10px -100px; }
     /* line 2468, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:first-child:hover, .footer-middle__social-icon a:first-child:focus {
       transform: translateY(5px); }
   /* line 2473, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .footer-middle__social-icon a:nth-child(2) {
-    background: url("/img/social-sprite.png") no-repeat;
+    background: url("../../img/social-sprite.png") no-repeat;
     background-position: -268px -100px; }
     /* line 2476, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(2):hover, .footer-middle__social-icon a:nth-child(2):focus {
@@ -2636,21 +2636,21 @@ ul.external li:last-child a {
   /* line 2481, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .footer-middle__social-icon a:nth-child(3) {
     padding-right: 1rem;
-    background: url("/img/social-sprite.png") no-repeat;
+    background: url("../../img/social-sprite.png") no-repeat;
     background-position: -352px -100px; }
     /* line 2485, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(3):hover, .footer-middle__social-icon a:nth-child(3):focus {
       transform: translateY(5px); }
   /* line 2490, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .footer-middle__social-icon a:nth-child(4) {
-    background: url("/img/social-sprite.png") no-repeat;
+    background: url("../../img/social-sprite.png") no-repeat;
     background-position: -775px -100px; }
     /* line 2493, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(4):hover, .footer-middle__social-icon a:nth-child(4):focus {
       transform: translateY(5px); }
   /* line 2499, D:/!Projects/eCommerce/scss/Pages/home.scss */
   .footer-middle__social-icon a:nth-child(5) {
-    background: url("/img/social-sprite.png") no-repeat;
+    background: url("../../img/social-sprite.png") no-repeat;
     background-position: -858px -100px; }
     /* line 2502, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(5):hover, .footer-middle__social-icon a:nth-child(5):focus {
@@ -2757,14 +2757,14 @@ ul.external li:last-child a {
     height: 5rem; }
     /* line 2617, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:first-child {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -10px -100px; }
       /* line 2621, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:first-child:hover, .footer-middle__social-icon a:first-child:focus {
         transform: translateY(5px); }
     /* line 2626, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(2) {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -268px -100px; }
       /* line 2629, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(2):hover, .footer-middle__social-icon a:nth-child(2):focus {
@@ -2772,21 +2772,21 @@ ul.external li:last-child a {
     /* line 2634, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(3) {
       padding-right: 1rem;
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -352px -100px; }
       /* line 2638, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(3):hover, .footer-middle__social-icon a:nth-child(3):focus {
         transform: translateY(5px); }
     /* line 2643, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(4) {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -775px -100px; }
       /* line 2646, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(4):hover, .footer-middle__social-icon a:nth-child(4):focus {
         transform: translateY(5px); }
     /* line 2652, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(5) {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -858px -100px; }
       /* line 2655, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(5):hover, .footer-middle__social-icon a:nth-child(5):focus {
@@ -2890,14 +2890,14 @@ ul.external li:last-child a {
     height: 5rem; }
     /* line 2773, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:first-child {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -10px -100px; }
       /* line 2777, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:first-child:hover, .footer-middle__social-icon a:first-child:focus {
         transform: translateY(5px); }
     /* line 2782, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(2) {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -268px -100px; }
       /* line 2785, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(2):hover, .footer-middle__social-icon a:nth-child(2):focus {
@@ -2905,21 +2905,21 @@ ul.external li:last-child a {
     /* line 2790, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(3) {
       padding-right: 1rem;
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -352px -100px; }
       /* line 2794, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(3):hover, .footer-middle__social-icon a:nth-child(3):focus {
         transform: translateY(5px); }
     /* line 2799, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(4) {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -775px -100px; }
       /* line 2802, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(4):hover, .footer-middle__social-icon a:nth-child(4):focus {
         transform: translateY(5px); }
     /* line 2808, D:/!Projects/eCommerce/scss/Pages/home.scss */
     .footer-middle__social-icon a:nth-child(5) {
-      background: url("/img/social-sprite.png") no-repeat;
+      background: url("../../img/social-sprite.png") no-repeat;
       background-position: -858px -100px; }
       /* line 2811, D:/!Projects/eCommerce/scss/Pages/home.scss */
       .footer-middle__social-icon a:nth-child(5):hover, .footer-middle__social-icon a:nth-child(5):focus {
