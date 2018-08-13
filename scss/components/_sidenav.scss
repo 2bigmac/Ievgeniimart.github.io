@@ -1,0 +1,130 @@
+.sidenav {
+  position: fixed;
+  width: 50%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  transform: translateX(-100%);
+  height: 100%;
+  padding-bottom: 60px;
+  background-color: $sidenav-bg-color;
+  z-index: 999;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateX(-105%);
+
+  @extend .z-depth-1;
+
+  .sidenav__nav{
+    .sidenav__nav-list{
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .collapsible {
+    margin: 0;
+  }
+
+  li {
+    float: none;
+    line-height: $sidenav-line-height;
+	  width: 100%;
+	  text-align: center;
+    position: relative;
+	border-bottom: 1px solid #eee;
+  }
+
+  li > a {
+    color: $sidenav-font-color;
+    display: block;
+    font-size: $sidenav-font-size;
+    font-weight: 500;
+    line-height: $sidenav-line-height;
+    padding: 2rem 0;
+    text-transform: none;
+    height: 100%;
+    width: 100%;
+    @include transitionAll;
+    &:hover{
+        color: $main-blue;
+    }
+  }
+
+}
+
+
+// Touch interaction
+.drag-target {
+  // Right Align
+  &.right-aligned {
+    right: 0;
+  }
+
+  height: 100%;
+  width: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 998;
+}
+
+
+// Fixed Sidenav shown
+.sidenav.sidenav-fixed {
+  // Right Align
+  &.right-aligned {
+    right: 0;
+    left: auto;
+  }
+
+  left: 0;
+  transform: translateX(0);
+  position: fixed;
+}
+
+// Fixed Sidenav hide on smaller
+@media #{$medium-and-down} {
+  .sidenav {
+    &.sidenav-fixed {
+      transform: translateX(-105%);
+
+      &.right-aligned {
+        transform: translateX(105%);
+      }
+    }
+
+    a {
+      padding: 0 $sidenav-padding;
+    }
+
+    .user-view {
+      padding: $sidenav-padding $sidenav-padding 0;
+    }
+  }
+}
+
+
+.sidenav .collapsible-body > ul:not(.collapsible) > li.active,
+.sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
+  background-color: $primary-color;
+  a {
+    color: $sidenav-bg-color;
+  }
+}
+.sidenav .collapsible-body {
+  padding: 0;
+}
+
+.sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 120vh;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 998;
+}

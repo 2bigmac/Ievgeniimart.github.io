@@ -1,0 +1,120 @@
+.main-nav-wrap {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, .2);
+  transition: all .3s;
+  @extend .z-depth-1;
+  width: 100%;
+  height: 7rem;
+  z-index: 100;
+
+  &.nav-up { top: -7rem;}
+
+  @media #{$small-and-down} {
+    height: 5.5rem;
+  }
+
+  .main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-nav__logo {
+    display: inline-block;
+    background-image: url("/img/dent-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: all 0.3s;
+    width: 6.5rem;
+    height: 6.5rem;
+    @media #{$small-and-down} {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+
+  .main-nav__right {
+    display: flex;
+    align-items: center;
+
+    .main-nav__item {
+      width: auto;
+      margin-right: 3rem;
+      position: relative;
+      font-size: 1.4rem;
+      padding-left: 1.5rem;
+      color: #fff;
+      &.no-hover{
+        &:focus,
+        &:hover{
+          color: #fff;
+        }
+      }
+      &:last-child{
+        margin: 0;
+      }
+      &:focus,
+      &:hover{
+        color: lighten($main-blue, 15%)
+      }
+
+      &:after{
+        @include centering;
+        content: '';
+        width: 1.5rem;
+        height: 1.5rem;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &.main-nav__tel {
+        &:after {
+          background-image: url("/img/ic_local_phone_white_24px.svg");
+          fill: $main-blue
+        }
+      }
+      &.main-nav__time {
+        &:after {
+          background-image: url("/img/ic_access_time_white_24px.svg");
+        }
+      }
+
+      &.main-nav__gallery{
+        &:after {
+          background-image: url("/img/ic_photo_white_24px.svg");
+        }
+      }
+
+      &.main-nav__contacts {
+        &:after {
+          background-image: url("/img/ic_contact_mail_white_24px.svg");
+        }
+      }
+
+      &.main-nav__team{
+        &:after {
+          background-image: url("/img/ic_people_white_24px.svg");
+        }
+      }
+      &.main-nav__services {
+        &:after {
+          background-image: url("/img/ic_description_white_24px.svg");
+        }
+      }
+    }
+  }
+  .main-nav__menu {
+    background-image: url("/img/dentist-tools.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    @media #{$small-and-down} {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
+

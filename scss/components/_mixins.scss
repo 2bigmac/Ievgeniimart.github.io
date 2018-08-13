@@ -1,0 +1,63 @@
+ @mixin box-shadow-2($args1, $args2) {
+     -webkit-box-shadow: $args1, $args2;
+     -moz-box-shadow: $args1, $args2;
+     box-shadow: $args1, $args2;
+ }
+
+ @mixin centering {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ // --------------------------------------------------
+ // Adaptive
+ // --------------------------------------------------
+ $mobile-width: 320px;
+ $mobile-landscape : 480px;
+ $tablet-width: 768px;
+ $tablet-landscape : 1024px;
+ $laptop-width: 1224px;
+ $desktop-width: 1824px;
+
+
+ @mixin mobile {
+   @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) and (-webkit-min-device-pixel-ratio: 3) {
+     @content;
+   }
+ }
+ @mixin mobile-landscape {
+   @media (min-width: #{$mobile-landscape}) and (max-width: #{$tablet-width - 1px}) and (-webkit-min-device-pixel-ratio: 3) and (orientation : landscape) {
+     @content;
+   }
+ }
+
+ @mixin tablet {
+   @media (min-width: #{$tablet-width}) and (max-width: #{$laptop-width - 1px}){
+     @content;
+   }
+ }
+
+ @mixin tablet-landscape {
+   @media (min-width: #{$tablet-landscape}) and (max-width: #{$laptop-width}) and (-webkit-min-device-pixel-ratio: 1) and (orientation : landscape) {
+     @content;
+   }
+ }
+
+ @mixin laptop {
+   @media (min-width: #{$laptop-width}) and (max-width: #{$desktop-width - 1px}) {
+     @content;
+   }
+ }
+
+ @mixin desktop {
+   @media (min-width: #{$desktop-width}) {
+     @content;
+   }
+ }
+
+ @mixin transitionAll{
+   transition: all .2s ease-out;
+ }
+
