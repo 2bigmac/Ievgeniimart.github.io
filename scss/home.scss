@@ -70,22 +70,30 @@
 		}
 	}
 }
-// Services
+// Why us
 // ==========================================================================
 
+.why-us { padding: $g-indent-l 0; position: relative;
+	
+	&:before { content:''; position: absolute; left: 10%; top: 0; background: url("/img/q-mark-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
+
+	&:after { content:''; position: absolute; right: 10%; bottom: 0; background: url("/img/salt-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
+	
+	
+}
 
 
 
 // Additional Info
 // ==========================================================================
 
-.dent-content { padding: $g-indent-l 0; position: relative;
+.between-content { padding: $g-indent-l 0; position: relative;
 
 	@media #{$small-and-down} {padding: $g-indent 0;}
 
 	.btn-wrap { margin-top: 3.5rem; }
 
-	.dent-content-text { color: $white;
+	.between-content-text { color: $white;
 
 		@media #{$small-and-down} { padding: 0 4rem ; }
 

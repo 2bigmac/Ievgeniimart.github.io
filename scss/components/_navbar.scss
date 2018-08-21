@@ -1,7 +1,7 @@
 .main-nav-wrap {
   position: fixed;
   top: 0;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, .9);
   transition: all .3s;
   @extend .z-depth-1;
   width: 100%;
@@ -41,72 +41,18 @@
 
     .main-nav__item {
       width: auto;
-      margin-right: 3rem;
       position: relative;
-      font-size: 1.4rem;
-      padding-left: 1.5rem;
+      font-size: 1.5rem;
+      padding: 0 2rem;
       color: $main-color;
-      &.no-hover{
-        &:focus,
-        &:hover{
-          color: #fff;
-        }
-      }
-      &:last-child{
-        margin: 0;
-      }
       &:focus,
       &:hover{
-        color: lighten($main-blue, 15%)
-      }
-
-      &:after{
-        @include centering;
-        content: '';
-        width: 1.5rem;
-        height: 1.5rem;
-        left: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      &.main-nav__tel {
-        &:after {
-          background-image: url("/img/ic_local_phone_white_24px.svg");
-          fill: $main-blue
-        }
-      }
-      &.main-nav__time {
-        &:after {
-          background-image: url("/img/ic_access_time_white_24px.svg");
-        }
-      }
-
-      &.main-nav__gallery{
-        &:after {
-          background-image: url("/img/ic_photo_white_24px.svg");
-        }
-      }
-
-      &.main-nav__contacts {
-        &:after {
-          background-image: url("/img/ic_contact_mail_white_24px.svg");
-        }
-      }
-
-      &.main-nav__team{
-        &:after {
-          background-image: url("/img/ic_people_white_24px.svg");
-        }
-      }
-      &.main-nav__services {
-        &:after {
-          background-image: url("/img/ic_description_white_24px.svg");
-        }
+        color: #fff;
       }
     }
   }
   .main-nav__menu {
-    background-image: url("/img/dentist-tools.svg");
+    background-image: url("/img/ic_access_time_white_24px.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 3rem;
