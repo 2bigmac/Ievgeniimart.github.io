@@ -50,19 +50,6 @@ $(document).ready(function () {
 	});
 
 
-	window.sr = ScrollReveal({reset: true});
-	sr.reveal('.animatedOne', {
-		duration: 550,
-		delay: 0.2,
-		easing: 'ease',
-		origin: 'bottom',
-		mobile: false,
-		viewFactor: 0.1
-	});
-
-
-
-
 	$('a[href*="#"]')
 		.not('[href="#"]')
 		.not('[href="#0"]')

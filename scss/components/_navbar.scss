@@ -1,12 +1,12 @@
 .main-nav-wrap {
   position: fixed;
   top: 0;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(255, 255, 255, .5);
   transition: all .3s;
   @extend .z-depth-1;
   width: 100%;
   height: 7rem;
-  z-index: 100;
+  z-index: 30;
 
   &.nav-up { top: -7rem;}
 
@@ -14,7 +14,7 @@
     height: 5.5rem;
   }
 
-  .main-nav{
+  .main-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +45,7 @@
       position: relative;
       font-size: 1.4rem;
       padding-left: 1.5rem;
-      color: #fff;
+      color: $main-color;
       &.no-hover{
         &:focus,
         &:hover{
@@ -111,6 +111,7 @@
     background-repeat: no-repeat;
     width: 3rem;
     height: 3rem;
+    z-index: 999;
     @media #{$small-and-down} {
       width: 2.5rem;
       height: 2.5rem;

@@ -120,6 +120,7 @@
 
   .card-image {
     position: relative;
+	  height: 22rem;
 
     // Image background for content
     img {
@@ -149,7 +150,7 @@
 
     p {
       margin: 0;
-      color: $link-color;
+      color: $main-green;
       cursor: pointer;
     }
     .card-title {
@@ -160,7 +161,7 @@
       font-weight: 600;
 
       i {
-        color: $link-color;
+        color: $main-green;
         line-height: 32px;
       }
     }
@@ -175,12 +176,12 @@
     padding: 16px $card-padding;
 
     a:not(.btn):not(.btn-large):not(.btn-floating) {
-      color: $link-color;
+      color: $main-green;;
       margin-right: $card-padding;
       transition: color .3s ease;
       text-transform: uppercase;
 
-      &:hover { color: $link-color; }
+      &:hover { color: $main-green; }
     }
   }
 
