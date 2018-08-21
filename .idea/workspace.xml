@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69c82167-05b4-4738-99ba-2832409aeeec" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_access_time_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_contact_mail_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_description_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_keyboard_arrow_up_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_local_phone_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_people_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ic_photo_white_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoFour.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoThree.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/home.scss" afterDir="false" />
     </list>
     <ignored path="eCommerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
@@ -77,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/home.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
@@ -176,7 +159,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="2560" />
     <option name="y" value="23" />
     <option name="width" value="2560" />
@@ -266,7 +249,7 @@
       <workItem from="1534738527099" duration="2028000" />
       <workItem from="1534824433312" duration="1408000" />
       <workItem from="1534826570713" duration="121000" />
-      <workItem from="1534844858981" duration="6289000" />
+      <workItem from="1534844858981" duration="6498000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1534148396358</created>
@@ -324,26 +307,34 @@
       <option name="project" value="LOCAL" />
       <updated>1534826586364</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update index content">
+      <created>1534853324146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534853324146</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12691000" />
+    <option name="totallyTimeSpent" value="12900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3285528" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32967034" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,7 +368,8 @@
     <MESSAGE value="init img" />
     <MESSAGE value="init scripts / styles" />
     <MESSAGE value="update index" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index" />
+    <MESSAGE value="update index content" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index content" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scss/_variable.scss" />
@@ -526,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="241" column="98" selection-start-line="241" selection-start-column="98" selection-end-line="241" selection-end-column="98" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -547,6 +529,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="79" column="131" selection-start-line="79" selection-start-column="131" selection-end-line="79" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="241" column="98" selection-start-line="241" selection-start-column="98" selection-end-line="241" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
