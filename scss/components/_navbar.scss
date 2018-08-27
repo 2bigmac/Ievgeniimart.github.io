@@ -1,7 +1,7 @@
 .main-nav-wrap {
   position: fixed;
   top: 0;
-  background: rgba(255, 255, 255, .9);
+  background: rgba(0, 0, 0, .3);
   transition: all .3s;
   @extend .z-depth-1;
   width: 100%;
@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+	  height: 100%;
   }
 
   .main-nav__logo {
@@ -27,8 +28,8 @@
     background-size: contain;
     background-position: center;
     transition: all 0.3s;
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 7rem;
+    height: 7rem;
     @media #{$small-and-down} {
       width: 5rem;
       height: 5rem;
@@ -44,7 +45,7 @@
       position: relative;
       font-size: 1.5rem;
       padding: 0 2rem;
-      color: $main-color;
+      color: $white;
       &:focus,
       &:hover{
         color: #fff;
