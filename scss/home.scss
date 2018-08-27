@@ -73,12 +73,15 @@
 // Why us
 // ==========================================================================
 
-.why-us { padding: $g-indent-l 0; position: relative;
+.why-us { padding: $g-indent-l 0 0 0; position: relative;
 	
-	&:before { content:''; position: absolute; left: 10%; top: 0; background: url("/img/q-mark-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
+	&:before { content:''; position: absolute; left: 5%; top: 5%; background: url("/img/q-mark-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
 
-	&:after { content:''; position: absolute; right: 10%; bottom: 0; background: url("/img/salt-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
+	&:after { content:''; position: absolute; right: 5%; bottom: 5%; background: url("/img/salt-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
 	
+	.why-us-col{ margin-top: 5rem;}
+	
+	.why-us-text { height: 5rem; }
 	
 }
 
