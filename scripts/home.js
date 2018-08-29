@@ -129,10 +129,6 @@ $(document).ready(function () {
 		lastScrollTop = st;
 	}
 
-	$(document).ready(function () {
-		$('.parallax').parallax();
-	});
-
 });
 
 function initMap() {
@@ -149,11 +145,19 @@ function initMap() {
 
 document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('.parallax');
-	var instances = M.Parallax.init(elems, options);
+	var instances = M.Parallax.init(elems);
 });
 
 
 document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('.collapsible');
-	var instances = M.Collapsible.init(elems, options);
+	var instances = M.Collapsible.init(elems);
+});
+
+$(document).ready(function () {
+	var tl = new TimelineMax();
+
+	tl.from('#question-body', 0.5, {scaleY: 0, transformOrigin: "center", ease: Power1.easeOut})
+		.from('#question-dot', 0.5, {scaleY: 0, transformOrigin: "bottom", ease: Bounce.easeOut})
+		.from('#salt-body', 0.7, {scaleX: 0, transformOrigin: "center", rotation:90, opacity:0, ease:Elastic.easeOut})
 });

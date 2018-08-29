@@ -75,9 +75,9 @@
 
 .why-us { padding: $g-indent-l 0 0 0; position: relative;
 	
-	&:before { content:''; position: absolute; left: 5%; top: 5%; background: url("/img/q-mark-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
+	.why-us-q-mark { position: absolute; left: 5%; top: 5%;  width: 15rem; height: 15rem; }
 
-	&:after { content:''; position: absolute; right: 5%; bottom: 5%; background: url("/img/salt-why.svg"); width: 15rem; height: 15rem; background-size: cover; }
+	.why-us-salt { position: absolute; right: 5%; bottom: 5%;  width: 15rem; height: 15rem; }
 	
 	.why-us-col{ margin-top: 5rem;}
 	
