@@ -1,64 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69c82167-05b4-4738-99ba-2832409aeeec" name="Default" comment="re init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logoOne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logoTwo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/person1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/person2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/person3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/person4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/person5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/q-mark-why.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/salt-why.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/waves.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/materialize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/scss.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_color-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_materialbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_pulse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_sidenav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_waves.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_file-input.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/forms/_input-fields.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/jquery.fancybox.min.css" afterDir="false" />
+    <list default="true" id="69c82167-05b4-4738-99ba-2832409aeeec" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/scss/components/_collapsible.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
     </list>
     <ignored path="eCommerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,12 +31,60 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/components/_global.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/components/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materialize.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/materialize-src/sass/materialize.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="845">
+              <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_core.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_core.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parallax</find>
+      <find>$collapsible-header-color</find>
+      <find>coll</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scss/_core.scss" />
         <option value="$PROJECT_DIR$/scss/_class.scss" />
         <option value="$PROJECT_DIR$/acount.html" />
         <option value="$PROJECT_DIR$/scss/_buttons.scss" />
@@ -102,7 +99,6 @@
         <option value="$PROJECT_DIR$/scss/Pages/home.scss" />
         <option value="$PROJECT_DIR$/scss/components/_color-variables.scss" />
         <option value="$PROJECT_DIR$/scss/components/_typography.scss" />
-        <option value="$PROJECT_DIR$/scss/components/_variables.scss" />
         <option value="$PROJECT_DIR$/scss/components/_grid.scss" />
         <option value="$PROJECT_DIR$/scss/components/_cards.scss" />
         <option value="$PROJECT_DIR$/scss/home.scss" />
@@ -110,6 +106,11 @@
         <option value="$PROJECT_DIR$/scripts/home.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gitignore.txt" />
+        <option value="$PROJECT_DIR$/scss/components/_global.scss" />
+        <option value="$PROJECT_DIR$/scss/_core.scss" />
+        <option value="$USER_HOME$/Desktop/materialize-src/sass/components/_variables.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_variables.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -159,6 +160,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/gulp-compass/lib/compass.js" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,7 +216,8 @@
       <workItem from="1534854457040" duration="25000" />
       <workItem from="1535356975836" duration="4460000" />
       <workItem from="1535368244426" duration="289000" />
-      <workItem from="1535430085479" duration="993000" />
+      <workItem from="1535430085479" duration="1659000" />
+      <workItem from="1535530259967" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1534148396358</created>
@@ -296,27 +303,36 @@
       <option name="project" value="LOCAL" />
       <updated>1535430284145</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="re init">
+      <created>1535431207085</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535431207085</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18667000" />
+    <option name="totallyTimeSpent" value="19926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3285528" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32893774" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34065935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -325,7 +341,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,16 +369,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="re init" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/_buttons.scss" />
-    <entry file="file://$PROJECT_DIR$/scss/_class.scss" />
-    <entry file="file://$PROJECT_DIR$/scss/_typography.scss" />
-    <entry file="file://$PROJECT_DIR$/scripts/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -430,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_core.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lint.yml" />
     <entry file="file://$PROJECT_DIR$/delivery.html" />
     <entry file="file://$PROJECT_DIR$/acount.html" />
@@ -469,24 +467,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/components/_cards.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -515,16 +499,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="528" column="4" selection-start-line="528" selection-start-column="4" selection-end-line="528" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="845">
+          <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/materialize-src/sass/materialize.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_collapsible.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/materialize-src/sass/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="115" selection-start-line="115" selection-end-line="121" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
