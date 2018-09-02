@@ -73,7 +73,7 @@
 // Why us
 // ==========================================================================
 
-.why-us { padding: $g-indent-l 0 0 0; position: relative;
+.why-us { padding: $g-indent 0 0 0; position: relative;
 	
 	.why-us-q-mark { position: absolute; left: 5%; top: 5%;  width: 15rem; height: 15rem; }
 
@@ -92,6 +92,16 @@
 	
 }
 
+.comments {
+
+  .comments-list-item { text-align: center;
+
+    .item-image { width: 10rem; height: 10rem; margin: 0 auto; }
+
+
+  }
+
+}
 
 
 // Additional Info
@@ -99,9 +109,15 @@
 
 .between-content { padding: $g-indent-l 0; position: relative;
 
+    &:before{ content: ''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(0,0,0, 0.5);
+      z-index: -1;
+    }
+
 	@media #{$small-and-down} {padding: $g-indent 0;}
 
-	.btn-wrap { margin-top: 3.5rem; }
+    .between-content-row { padding: 3rem 0; }
+
+    .col-icon { width: 10rem; height: 10rem; display: block; margin: 0 auto; }
 
 	.between-content-text { color: $white;
 
@@ -238,7 +254,7 @@
 .gallery{
 	@media #{$small-and-down} { margin-bottom: 7rem;}
 
-	.gallery-images {
+	.gallery-images { margin: 0 -1.25rem -2.5rem -1.25rem;;
 
 		a { margin: 0 1.25rem 2.5rem 1.25rem;
 
