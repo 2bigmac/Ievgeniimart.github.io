@@ -78,8 +78,15 @@
 	.why-us-q-mark { position: absolute; left: 5%; top: 5%;  width: 15rem; height: 15rem; }
 
 	.why-us-salt { position: absolute; right: 5%; bottom: 5%;  width: 15rem; height: 15rem; }
-	
-	.why-us-col{ margin-top: 5rem;}
+
+	.why-us-col { margin-top: 5rem;}
+
+	.col-icon {
+		display: block; margin: 0 auto; width: 10rem; height: 10rem;
+
+		svg { width: 100%; height: 100%; }
+
+	}
 	
 	.why-us-text { height: 5rem; }
 	
