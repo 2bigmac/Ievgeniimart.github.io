@@ -268,7 +268,16 @@
 	}
 }
 
+// App download
+// ==========================================================================
+.app-download {
 
+	.app-link { display: inline-block; width: 20rem;
+
+		@media #{$small-and-down} { width: 15rem; }
+
+	}
+}
 // Footer
 // ==========================================================================
 .page-footer {color: $footer-font-color; padding: $g-indent  0 2rem; margin-top: $g-indent-sm;

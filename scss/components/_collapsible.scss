@@ -1,9 +1,7 @@
 .collapsible {
-  border-top: 1px solid $collapsible-border-color;
-  border-right: 1px solid $collapsible-border-color;
-  border-left: 1px solid $collapsible-border-color;
   margin: $element-top-margin 0 $element-bottom-margin 0;
   @extend .z-depth-1;
+  font-size: 1.5rem;
 }
 
 .collapsible-header {
@@ -17,7 +15,6 @@
   line-height: 1.5;
   padding: 1rem;
   background-color: $collapsible-header-color;
-  border-bottom: 1px solid $collapsible-border-color;
 
   i {
     width: 2rem;
@@ -33,7 +30,6 @@
 
 .collapsible-body {
   display: none;
-  border-bottom: 1px solid $collapsible-border-color;
   box-sizing: border-box;
   padding: 2rem;
 }
