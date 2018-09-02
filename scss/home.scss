@@ -197,11 +197,9 @@
 
 				@media #{$small-and-down} { margin-top: 3rem; padding-left: 3rem }
 
-				&:hover { .material-icons { @extend .bounce; } }
+				.main-title-small { padding: 0; line-height: normal; }
 
-				.main-title-small { padding: 0; }
-
-				.material-icons { position: absolute; top: 0; left: -2rem; color: $main-green;
+				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem;
 
 					@media #{$small-and-down} { font-size:  3rem; }
 

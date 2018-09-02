@@ -22,6 +22,9 @@
   @media #{$small-and-down} {
     margin-bottom: 2rem;
   }
+  &:hover{
+    @extend .z-depth-3;
+  }
 
   .card-title {
     margin-top: 0;
@@ -161,6 +164,7 @@
       left: 0;
       max-width: 100%;
       padding: $card-padding;
+
     }
   }
 
@@ -180,10 +184,7 @@
       font-family: $font-familyPrime;
       font-weight: 600;
 
-      i {
-        color: $main-green;
-        line-height: 32px;
-      }
+      .card-more { width: 4rem; height: 4rem; }
     }
   }
 
@@ -221,7 +222,19 @@
       cursor: pointer;
       display: block;
       color: $white;
+      z-index: 1;
     }
+
+    .card-close{
+      display: inline-block;
+      width: 3.5rem;
+      height: 3.5rem;
+      position: absolute;
+      right: 2rem;
+      top: 2rem;
+      z-index: -1;
+    }
+
     p{
       color: $white;
       margin-bottom: 3rem;
