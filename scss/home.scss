@@ -73,18 +73,35 @@
 // Why us
 // ==========================================================================
 
-.why-us { padding: $g-indent-l 0 0 0; position: relative;
+.why-us { padding: $g-indent 0 0 0; position: relative;
 	
 	.why-us-q-mark { position: absolute; left: 5%; top: 5%;  width: 15rem; height: 15rem; }
 
 	.why-us-salt { position: absolute; right: 5%; bottom: 5%;  width: 15rem; height: 15rem; }
-	
-	.why-us-col{ margin-top: 5rem;}
+
+	.why-us-col { margin-top: 5rem;}
+
+	.col-icon {
+		display: block; margin: 0 auto; width: 10rem; height: 10rem;
+
+		svg { width: 100%; height: 100%; }
+
+	}
 	
 	.why-us-text { height: 5rem; }
 	
 }
 
+.comments {
+
+  .comments-list-item { text-align: center;
+
+    .item-image { width: 10rem; height: 10rem; margin: 0 auto; }
+
+
+  }
+
+}
 
 
 // Additional Info
@@ -92,13 +109,23 @@
 
 .between-content { padding: $g-indent-l 0; position: relative;
 
+    &:before{ content: ''; position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(0,0,0, 0.5);
+      z-index: -1;
+    }
+
 	@media #{$small-and-down} {padding: $g-indent 0;}
+	
+	.main-title { font-size: 3rem;}
 
-	.btn-wrap { margin-top: 3.5rem; }
+    .between-content-row { padding: 3rem 0; }
 
-	.between-content-text { color: $white;
+    .col-icon { width: 10rem; height: 10rem; display: block; margin: 0 auto; }
+
+	.between-content-text { color: $white; text-align: center; font-size: 1.8rem;
 
 		@media #{$small-and-down} { padding: 0 4rem ; }
+		
+		&.bigger { font-size: 2rem; margin: 4rem 0; }
 
 	}
 }
@@ -174,11 +201,9 @@
 
 				@media #{$small-and-down} { margin-top: 3rem; padding-left: 3rem }
 
-				&:hover { .material-icons { @extend .bounce; } }
+				.main-title-small { padding: 0; line-height: normal; }
 
-				.main-title-small { padding: 0; }
-
-				.material-icons { position: absolute; top: 0; left: -2rem; color: $main-green;
+				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem;
 
 					@media #{$small-and-down} { font-size:  3rem; }
 
@@ -211,18 +236,10 @@
 
 .scrollTop { display: none; width: 100%; margin: 0 auto; position: fixed; bottom: 20px; right: 10px; z-index: 11;}
 
-.scroll-btn { position: absolute; right: 2rem; bottom: 3.5rem; background-color: $main-blue; opacity: .4; width: 4rem; height: 4rem;
-
-	border-radius: 50%; text-align: center; margin: 0; cursor: pointer; transition: 0.5s; background-image: url("/img/ic_keyboard_arrow_up_white_24px.svg"); background-repeat: no-repeat; background-position: center;
-
-	&:hover {
-
-		&.pulse:before { display: block; }
-
-	}
+.scroll-btn { position: absolute; right: 2rem; bottom: 3.5rem; opacity: .4; width: 5rem; height: 5rem; display: inline-block; cursor: pointer; transition: 0.3s;
+	
 }
 
-.scroll-btn.pulse:before { display: none; }
 
 
 // Gallery
@@ -231,7 +248,7 @@
 .gallery{
 	@media #{$small-and-down} { margin-bottom: 7rem;}
 
-	.gallery-images {
+	.gallery-images { margin: 0 -1.25rem -2.5rem -1.25rem;;
 
 		a { margin: 0 1.25rem 2.5rem 1.25rem;
 
@@ -241,13 +258,22 @@
 
 	}
 
-	.slick-dots li button:before { content: ''; background: url("/img/tooth-outline.svg"); background-size: contain; width: 3rem; height: 3rem;
+	.slick-dots li button:before { content: '*'; background-size: contain; width: 3rem; height: 3rem;
 
 		@media #{$small-and-down} { width: 2rem; height: 2rem; }
 	}
 }
 
+// App download
+// ==========================================================================
+.app-download {
 
+	.app-link { display: inline-block; width: 20rem;
+
+		@media #{$small-and-down} { width: 15rem; }
+
+	}
+}
 // Footer
 // ==========================================================================
 .page-footer {color: $footer-font-color; padding: $g-indent  0 2rem; margin-top: $g-indent-sm;

@@ -16,7 +16,7 @@ $(document).ready(function () {
 	});
 
 
-	$('.gallery-images').slick({
+	$('.gallery-images').not('.slick-initialized').slick({
 		slidesToShow: 3,
 		slidesToScroll: 2,
 		autoplay: true,
@@ -33,6 +33,24 @@ $(document).ready(function () {
 				}
 			}]
 	});
+
+    $('.comments-list').not('.slick-initialized').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: false,
+        arrows: false,
+        dots: false,
+        autoplaySpeed: 6000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+    });
 
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 50) {
@@ -155,10 +173,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 $(document).ready(function () {
-	var tl = new TimelineMax();
-
-	tl.from('#question-body', 0.5, {scaleY: 0, transformOrigin: "center", ease: Power1.easeOut})
-		.from('#question-dot', 0.5, {scaleY: 0, transformOrigin: "bottom", ease: Bounce.easeOut})
-		.from('#salt-body', 0.7, {scaleX: 0, transformOrigin: "center", rotation:90, opacity:0, ease:Elastic.easeOut})
-		.to("#question-svg", 1, {morphSVG:"#salt-svg"});
+	TweenLite.to("#animated-svg-one", 1, {morphSVG:"#animated-svg-two"}); // GSAP Docs
 });

@@ -23,10 +23,6 @@
 
   .main-nav__logo {
     display: inline-block;
-    background-image: url("/img/dent-01.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     transition: all 0.3s;
     width: 7rem;
     height: 7rem;
@@ -53,15 +49,12 @@
     }
   }
   .main-nav__menu {
-    background-image: url("/img/ic_access_time_white_24px.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     z-index: 999;
     @media #{$small-and-down} {
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 4rem;
+      height: 4rem;
     }
   }
 }

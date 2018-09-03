@@ -144,6 +144,7 @@ video.responsive-video {
   height: auto;
 }
 
+
 .parallax-container {
   position: relative;
   overflow: hidden;
@@ -169,6 +170,9 @@ video.responsive-video {
   }
 }
 
+#animated-svg-two{
+	visibility: hidden;
+}
 /*********************
   Transition Classes
 **********************/
@@ -365,7 +369,10 @@ ul.staggered-list li {
 }
 
 
-.shadow-platform { @extend .z-depth-4; margin: -$g-indent  4.5rem; border-radius: 6px; z-index: 10; background-color: #ffffff; padding: $g-indent 0; position: relative;
+.shadow-platform { @extend .z-depth-4; margin: -$g-indent  4.5rem; border-radius: 6px;
+  z-index: 10; background-color: #ffffff; position: relative; padding: $g-indent 0;
+
+  &._large-indent { padding: $g-indent 0 $g-indent-l 0; }
 
     @media #{$medium-and-down} { margin: -$g-indent-sm 2rem; }
 
