@@ -160,4 +160,5 @@ $(document).ready(function () {
 	tl.from('#question-body', 0.5, {scaleY: 0, transformOrigin: "center", ease: Power1.easeOut})
 		.from('#question-dot', 0.5, {scaleY: 0, transformOrigin: "bottom", ease: Bounce.easeOut})
 		.from('#salt-body', 0.7, {scaleX: 0, transformOrigin: "center", rotation:90, opacity:0, ease:Elastic.easeOut})
+		.to("#question-svg", 1, {morphSVG:"#salt-svg"});
 });
