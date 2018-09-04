@@ -18,15 +18,15 @@ $(document).ready(function () {
 
 	$('.gallery-images').not('.slick-initialized').slick({
 		slidesToShow: 3,
-		slidesToScroll: 2,
+		slidesToScroll: 1,
 		autoplay: true,
 		infinite: false,
 		arrows: false,
-		dots: true,
+		dots: false,
 		autoplaySpeed: 2000,
 		responsive: [
 			{
-				breakpoint: 1024,
+				breakpoint: 768,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 1
