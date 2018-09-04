@@ -171,7 +171,3 @@ document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('.collapsible');
 	var instances = M.Collapsible.init(elems);
 });
-
-$(document).ready(function () {
-	TweenLite.to("#animated-svg-one", 1, {morphSVG:"#animated-svg-two"}); // GSAP Docs
-});
