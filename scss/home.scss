@@ -7,22 +7,30 @@
 
 .hero-slider { z-index: 0;
 
-	.hero-slider__item { position: relative; background-size: cover; height: 107vh;
+	.hero-slider__item { position: relative; background-size: cover; height: 100vh;
 
 		@media #{$medium-and-down} { height: 100%;}
 
 		img { width: 100%; }
 
-		&:after { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: rgba(0, 0, 0, .4); }
+		&:after { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: rgba(0, 0, 0, .5); }
 
 		.hero-slider__item-content { @include centering; display: flex; flex-direction: column; align-items: center; z-index: 20; perspective: 400px; }
 
-		.hero-slider__item-title { color: $white; font-weight: bold; margin-bottom: 5rem;
-			font-size: 4.5rem; text-align: center; line-height: 5.6rem; margin-top: 0; font-family: $font-familyPrime; text-transform: uppercase;
+		.hero-slider__item-title { color: $white; font-weight: bold; margin-bottom: 1rem;
+			font-size: 5rem; text-align: center; line-height: 1.4; margin-top: 0; font-family: $font-familyPrime; text-transform: uppercase;
 
-			@media #{$small-and-down} { font-size: 2.5rem; line-height: normal; margin-bottom: 2rem; }
+			@media #{$small-and-down} { font-size: 2.5rem; line-height: normal; }
 
 		}
+		.hero-slider__item-text { font-size: 2rem; color: $white; text-align: center; }
+		
+		.hero-slider__item-button { display: block; margin-top: 5rem;
+			
+			@media #{$small-and-down} { margin-top: 2rem; }
+		
+		}
+		
 
 	}
 
@@ -75,12 +83,21 @@
 
 .why-us {
 
-	.why-us-col { margin-top: 5rem;}
+	.why-us-col { margin-top: 5rem;
+	
+		&:hover {
+			.col-icon {
 
-	.col-icon {
-		display: block; margin: 0 auto; width: 10rem; height: 10rem;
+				svg { fill: $main-green; }
 
-		svg { width: 100%; height: 100%; }
+			}
+		}
+	
+	}
+
+	.col-icon { display: block; margin: 0 auto; width: 10rem; height: 10rem; 
+
+		svg { @include transitionAll; width: 100%; height: 100%; }
 
 	}
 	
@@ -318,29 +335,3 @@
 	}
 }
 
-
-
-$circle-radius: 8em;
-
-.wave {
-	-webkit-animation: fillup 4s linear infinite; /* Safari 4+ */
-	-moz-animation:    fillup 4s linear infinite; /* Fx 5+ */
-	-o-animation:      fillup 4s linear infinite; /* Opera 12+ */
-	animation:         fillup 4s linear infinite; /* IE 10+ */
-}
-
-
-@-moz-keyframes fillup {
-	0%   { -moz-transform: translate(0,$circle-radius); }
-	100% { -moz-transform: translate(-(82%),-1em); }
-}
-
-@-webkit-keyframes fillup {
-	0%   { -webkit-transform: translate(0,$circle-radius); }
-	100% { -webkit-transform: translate(-(82%),-1em); }
-}
-
-@keyframes fillup {
-	0%   { transform: translate(0,$circle-radius); }
-	100% { transform: translate(-(82%),-1em); }
-}

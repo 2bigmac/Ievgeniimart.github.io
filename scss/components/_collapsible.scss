@@ -42,8 +42,13 @@
 			}
 		}
 		&.active {
+			border-color: $main-green;
 			.plus {
 				transform: rotate(-135deg);
+				opacity: 1;
+				&:before, &:after {
+					background: $main-green;
+				}
 			}
 		}
 	}
