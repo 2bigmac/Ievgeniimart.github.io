@@ -1,54 +1,56 @@
 // shared styles
-.btn{
-  border: $button-border;
-  border-radius: 2px;
-  height: $button-height;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem 3rem;
-  font-size: $button-font-size;
-  font-family: $font-familyPrime;
-  text-transform: none;
-  -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
-  transition: background-color .3s ease-out;
-  cursor: pointer;
-  width: 100%;
-  max-width: 15rem;
-  font-weight: normal;
-  @include transitionAll;
-  &.btn-blue{
-    background: $main-blue;
-    color: $white;
-    border: none;
-    &:hover {
-      @extend .z-depth-2;
-      box-shadow: 0 2px 2px 0 rgba(85,172,238,.14), 0 3px 1px -2px rgba(85,172,238,.2), 0 1px 5px 0 rgba(85,172,238,.12);
-    }
-  }
+.btn {
+	border: $button-border;
+	border-radius: 2px;
+	height: $button-height;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5rem 3rem;
+	font-size: $button-font-size;
+	font-family: $font-familyPrime;
+	text-transform: none;
+	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
+	transition: background-color .3s ease-out;
+	cursor: pointer;
+	width: 100%;
+	max-width: 15rem;
+	line-height: 0;
+	font-weight: normal;
+	@include transitionAll;
+	&.btn-green {
+		background: $main-green;
+		color: $white;
+		border: none;
+		&:hover {
+			@extend .z-depth-2;
+		}
+	}
 
-  &.btn-bordered{
-    background: rgba(255,255,255, 0.1);
-    border: 1px solid $white;
-    color: $white;
-    &:hover {
-      @extend .z-depth-2;
-      background: rgba(255,255,255, 0.3);
-    }
-  }
+	&.btn-bordered {
+		background: rgba(255, 255, 255, 0.1);
+		border: 1px solid $white;
+		color: $white;
+		&:hover {
+			@extend .z-depth-2;
+			background: rgba(255, 255, 255, 0.3);
+		}
+	}
 
-  &.btn-small{
-    max-width: 10rem;
-    width: 100%;
-    margin: 0 auto;
-  }
+	&.btn-small {
+		max-width: 10rem;
+		width: 100%;
+		margin: 0 auto;
+	}
 }
 
-.btn-wrap{ display: flex; justify-content: center;
-  .btn{
-    margin: 0 1rem ;
-  }
+.btn-wrap {
+	display: flex;
+	justify-content: center;
+	.btn {
+		margin: 0 1rem;
+	}
 }
 
 
