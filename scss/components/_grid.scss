@@ -1,13 +1,13 @@
 .container {
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1420px;
   padding: 0 5.5rem;
 }
 
 
 @media #{$extra-large-and-up} {
   .container {
-    padding: 0 12rem;
+    padding: 0 5rem;
     width: 100%;
   }
 }
