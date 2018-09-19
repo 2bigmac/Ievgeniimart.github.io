@@ -96,16 +96,18 @@
 		&:hover {
 			.col-icon {
 
-				svg { fill: $main-green; }
+				transform: scale(1.1);
+
+				svg { fill: #74BD4C }
 
 			}
 		}
 	
 	}
 
-	.col-icon { display: block; margin: 0 auto; width: 10rem; height: 10rem; 
+	.col-icon { display: block; margin: 0 auto; width: 10rem; height: 10rem; @include transitionAll;
 
-		svg { @include transitionAll; width: 100%; height: 100%; }
+		svg {  @include transitionAll; width: 100%; height: 100%; }
 
 	}
 	
@@ -241,16 +243,21 @@
 
 				@media #{$small-and-down} { margin-top: 3rem; padding-left: 5rem }
 
-				&:hover { 
+				&:hover {
 
+					.item-icon {
 
-					.item-icon { svg{ fill: $main-green; } }
+							transform: scale(1.1);
 
+							svg { fill: $main-green; }
+						
+					}
 				}
+				
 
 				.main-title-small { padding: 0; line-height: normal; }
 
-				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem;
+				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem; @include transitionAll;
 					
 					svg { @include transitionAll; }
 
@@ -262,7 +269,7 @@
 
 					@media #{$small-and-down} { font-size:  1.5rem; }
 
-					&:hover { color: $main-green ; }
+					&:hover { color: $main-blue ; }
 
 				}
 
@@ -344,7 +351,7 @@
 
 				}
 
-				a { color: $text-color; &:hover { color: $main-green; } }
+				a { color: $text-color; &:hover { color: $main-blue; } }
 			}
 		}
 	}
