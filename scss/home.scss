@@ -22,12 +22,6 @@
 
 			@media #{$small-and-down} { font-size: 2.3rem; line-height: normal; br { display: none;}  }
 			
-			span{ font-weight: bold; display: block;
-				background: linear-gradient(to bottom, #72BF44 30%, #4ebf27 70%);
-				background-clip: border-box;
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-			}
 
 		}
 		.hero-slider__item-text { font-size: 2rem; color: $white; text-align: center;
@@ -47,6 +41,8 @@
 	}
 
 }
+
+
 
 // Company info
 // ==========================================================================
@@ -95,7 +91,7 @@
 
 .why-us {
 
-	.why-us-col { margin-top: 5rem;
+	.why-us-col { margin-top: 3rem;
 	
 		&:hover {
 			.col-icon {
@@ -115,6 +111,10 @@
 	
 	.why-us-text { height: 5rem; }
 	
+}
+
+.faq{
+	.collapsible { padding-top: 3rem; margin-top: 0;}
 }
 
 .comments {
@@ -243,7 +243,7 @@
 
 				.main-title-small { padding: 0; line-height: normal; }
 
-				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem;
+				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem; @include transitionAll;
 
 					@media #{$small-and-down} { font-size:  3rem; }
 
@@ -253,7 +253,12 @@
 
 					@media #{$small-and-down} { font-size:  1.5rem; }
 
-					&:hover { color: $main-green}
+					&:hover { color: $main-green ;
+
+
+						.item-icon { svg{ fill: $main-green; } }
+					
+					}
 
 				}
 

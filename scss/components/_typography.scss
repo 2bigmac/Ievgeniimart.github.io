@@ -47,12 +47,7 @@ p{
 
     @media #{$small-and-down} { font-size: 2.3rem;}
 
-  .logo-name { color: $main-green; margin: 1rem 0 3rem 0; display: block; font-weight: 600; font-size: 3rem;
-	  
-	  background: linear-gradient(to bottom, #4bb626 30%, $main-green 70%, #3c9320);
-	  background-clip: border-box;
-	  -webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent;
+  .logo-name { color: $main-green; margin: 1rem 0 3rem 0; font-size: 3rem; display: block;
 	  
 
       @media #{$small-and-down} { margin: .5rem 0 2rem 0;}
@@ -94,6 +89,12 @@ p{
 		
 }
 
+.gradient-text{ font-weight: bold;
+	background: linear-gradient(to bottom, #72BF44 30%, #4ebf27 70%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 // Font Class
 
