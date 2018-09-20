@@ -94,24 +94,20 @@
 	.why-us-col { margin-top: 3rem;
 	
 		&:hover {
-			.col-icon {
-
-				transform: scale(1.1);
-
-				svg { fill: #74BD4C }
-
-			}
+			.col-icon { transform: scale(1.1); }
 		}
 	
 	}
 
 	.col-icon { display: block; margin: 0 auto; width: 10rem; height: 10rem; @include transitionAll;
 
-		svg {  @include transitionAll; width: 100%; height: 100%; }
+		svg {  width: 100%; height: 100%; }
 
 	}
 	
 	.why-us-text { height: 5rem; }
+	
+	.quote { font-size: 1.3rem; margin-top: 2rem; }
 	
 }
 
@@ -245,21 +241,12 @@
 
 				&:hover {
 
-					.item-icon {
-
-							transform: scale(1.1);
-
-							svg { fill: $main-green; }
-						
-					}
+					.item-icon { transform: scale(1.1); }
 				}
-				
 
 				.main-title-small { padding: 0; line-height: normal; }
 
 				.item-icon { position: absolute; top: 0; left: -3rem; width: 6rem; height: 6rem; @include transitionAll;
-					
-					svg { @include transitionAll; }
 
 					@media #{$small-and-down} { font-size:  3rem; }
 
@@ -269,7 +256,7 @@
 
 					@media #{$small-and-down} { font-size:  1.5rem; }
 
-					&:hover { color: $main-blue ; }
+					&:hover { color: $main-green ; }
 
 				}
 
@@ -351,7 +338,7 @@
 
 				}
 
-				a { color: $text-color; &:hover { color: $main-blue; } }
+				a { color: $text-color; &:hover { color: lighten($main-green, 5%); } }
 			}
 		}
 	}

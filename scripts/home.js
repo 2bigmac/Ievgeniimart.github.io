@@ -161,6 +161,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	var instances = M.Parallax.init(elems);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+	var elems = document.querySelectorAll('.tooltipped');
+	var instances = M.Tooltip.init(elems);
+});
+
 function initMap() {
 	var uluru = {lat: 50.355862, lng: 30.942708};
 	var map = new google.maps.Map(document.getElementById('map'), {

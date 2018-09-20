@@ -1,6 +1,6 @@
 .material-tooltip {
   padding: 10px 8px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   z-index: 2000;
   background-color: transparent;
   border-radius: 2px;
@@ -16,7 +16,7 @@
   top: 0;
   pointer-events: none;
   visibility: hidden;
-  background-color: #323232;
+  background-color: $main-green;
 }
 
 .backdrop {
