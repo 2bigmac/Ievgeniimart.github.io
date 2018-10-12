@@ -176,7 +176,7 @@
 
     p {
       margin: 0;
-      color: $main-green;
+      color: $sec-green;
       cursor: pointer;
     }
     .card-title {
@@ -211,7 +211,7 @@
   .card-reveal {
     padding: 2.5rem;
     position: absolute;
-    background: rgba(0, 150, 196, 0.95);
+    background: rgba(83, 186, 183, 0.95);
     width: 100%;
     overflow-y: auto;
     left: 0;

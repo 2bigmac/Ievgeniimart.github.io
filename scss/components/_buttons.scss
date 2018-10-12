@@ -19,8 +19,8 @@
 	line-height: 0;
 	font-weight: normal;
 	@include transitionAll;
-	&.btn-green {
-		background: $main-green;
+	&.btn-blue {
+		background: $green-lighten;
 		color: $white;
 		border: none;
 		&:hover {

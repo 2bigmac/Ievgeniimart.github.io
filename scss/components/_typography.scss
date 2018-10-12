@@ -90,7 +90,7 @@ p{
 }
 
 .gradient-text{ font-weight: bold;
-	background: linear-gradient(to bottom, #72BF44 30%, #4ebf27 70%);
+	background: linear-gradient(to bottom, $main-green  30%, $sec-green 90%);
 	background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
